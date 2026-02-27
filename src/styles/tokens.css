@@ -1,0 +1,18 @@
+/* Design tokens and small helpers for the SaaS UI */
+:root {
+  --radius: 12px;
+}
+
+.card {
+  border-radius: var(--radius);
+}
+
+.shadow-soft {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+.container-page {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
